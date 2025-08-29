@@ -36,7 +36,7 @@
 								<div class="text-center py-3">or Login with</div>
 								<div class="d-flex gap-2 justify-content-center">
 									<button type="submit" class="btn btn-outline-danger">
-										<i class="bi bi-google me-2"></i>Gmail
+										<i class="bi bi-google me-2"></i>Ymail
 									</button>
 									<button type="submit" class="btn btn-outline-info">
 										<i class="bi bi-facebook me-2"></i>Facebook

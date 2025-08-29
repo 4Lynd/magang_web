@@ -1,0 +1,57 @@
+@extends('layouts.app')
+
+@section('content')
+
+<!-- Container start -->
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-4 col-lg-5 col-sm-6 col-12">
+					<form action="index.html" class="my-5">
+						<div class="border rounded-2 p-4 mt-5">
+							<div class="login-form">
+								<a href="index.html" class="mb-4 d-flex">
+									<img src="assets/images/logo.svg" class="img-fluid login-logo" alt="Earth Admin Dashboard" />
+								</a>
+								<h5 class="fw-light mb-5">Sign in to access dashboard.</h5>
+								<div class="mb-3">
+									<label class="form-label">Your Email</label>
+									<input type="text" class="form-control" placeholder="Enter your email" />
+								</div>
+								<div class="mb-3">
+									<label class="form-label">Your Password</label>
+									<input type="password" class="form-control" placeholder="Enter password" />
+								</div>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="form-check m-0">
+										<input class="form-check-input" type="checkbox" value="" id="rememberPassword" />
+										<label class="form-check-label" for="rememberPassword">Remember</label>
+									</div>
+									<a href="forgot-password.html" class="text-blue text-decoration-underline">Lost password?</a>
+								</div>
+								<div class="d-grid py-3 mt-4">
+									<button type="submit" class="btn btn-lg btn-primary">
+										Login
+									</button>
+								</div>
+								<div class="text-center py-3">or Login with</div>
+								<div class="d-flex gap-2 justify-content-center">
+									<button type="submit" class="btn btn-outline-danger">
+										<i class="bi bi-google me-2"></i>Gmail
+									</button>
+									<button type="submit" class="btn btn-outline-info">
+										<i class="bi bi-facebook me-2"></i>Facebook
+									</button>
+								</div>
+								<div class="text-center pt-4">
+									<span>Not registered?</span>
+									<a href="signup.html" class="text-blue text-decoration-underline ms-2">
+										SignUp</a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- Container end -->
+@endsection

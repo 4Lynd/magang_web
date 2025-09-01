@@ -2,7 +2,6 @@
 
 @section('content')
 <!-- Page wrapper start -->
-		
 
 				<!-- App container starts -->
 				<div class="app-container">

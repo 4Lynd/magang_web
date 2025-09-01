@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@include('layouts.header')
 
-@section('content')
+<body>
 
 <!-- Container start -->
 		<div class="container">
@@ -54,4 +54,5 @@
 			</div>
 		</div>
 		<!-- Container end -->
-@endsection
+
+</body>

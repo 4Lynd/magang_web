@@ -5,7 +5,7 @@
         <!-- Meta -->
         <meta name="description" content="Marketplace for Bootstrap Admin Dashboards" />
         <meta name="author" content="Bootstrap Gallery" />
-        <link rel="shortcut icon" href="{{ asset('assets/images/favicon.svg') }}" />
+        <link rel="shortcut icon" href="{{ asset('assets/images/fix/webicon2.jpg') }}" />
 
         <!-- CSS -->
         <link rel="stylesheet" href="{{ asset('assets/fonts/bootstrap/bootstrap-icons.css') }}" />
@@ -27,7 +27,7 @@
 		<meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
 		<meta property="og:type" content="Website">
 		<meta property="og:site_name" content="Bootstrap Gallery">
-		<link rel="shortcut icon" href="assets/images/favicon.svg" />
+		<link rel="shortcut icon" href="assets/images/fix/webicon2.jpg" />
 
         <!-- *************
 			************ CSS Files *************

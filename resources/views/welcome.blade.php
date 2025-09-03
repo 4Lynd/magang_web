@@ -7,7 +7,7 @@
 
     /* Navbar */
     .navbar {
-        background: linear-gradient(135deg, #667eea 100%, #764ba2 0%);
+        background: linear-gradient(135deg, #889becff 100%, #764ba2 0%);
     }
     .navbar-brand {
         font-weight: bold;
@@ -15,8 +15,10 @@
         text-transform: uppercase;
     }
     .nav-link {
-        color: #f1f5f9 !important;
+        color: #1e2124ff !important;
         margin-right: 15px;
+        font-size: 15px;
+        font-weight: 500;
     }
     .nav-link:hover {
         color: #ffca28 !important;
@@ -24,7 +26,9 @@
 
     /* Hero Section */
     .hero {
-        background: url('{{ asset("assets/images/hero-bg.jpg") }}') center/cover no-repeat;
+        background: url('{{ asset("assets/images/fix/bg2.jpg") }}') center no-repeat;
+        background-size: 103%;
+        top: 50px;
         min-height: 100vh;
         color: white;
         display: flex;
@@ -82,8 +86,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('assets/images/logo-kominfo.png') }}" alt="Logo" width="40" class="me-2">
-            Dinas Kominfo
+            <img src="{{ asset('assets/images/fix/logodis.png') }}" alt="Logo" width="200" class="me-2">
         </a>
         <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>

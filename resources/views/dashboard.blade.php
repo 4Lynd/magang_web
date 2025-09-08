@@ -19,20 +19,6 @@
 						</ol>
 						<!-- Breadcrumb end -->
 
-						<!-- Sales stats start -->
-						<div class="ms-auto d-lg-flex d-none flex-row">
-							<div class="d-flex flex-row gap-2">
-								<button class="btn btn-sm btn-primary">Today</button>
-								<button class="btn btn-sm btn-white">7d</button>
-								<button class="btn btn-sm btn-white">2w</button>
-								<button class="btn btn-sm btn-white">1m</button>
-								<button class="btn btn-sm btn-white">3m</button>
-								<button class="btn btn-sm btn-white">6m</button>
-								<button class="btn btn-sm btn-white">1y</button>
-							</div>
-						</div>
-						<!-- Sales stats end -->
-
 					</div>
 					<!-- App Hero header ends -->
 

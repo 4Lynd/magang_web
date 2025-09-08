@@ -7,7 +7,7 @@
 
     /* Navbar */
     .navbar {
-        background: linear-gradient(135deg, #889becff 100%, #764ba2 0%);
+        background: #fff !important;
     }
     .navbar-brand {
         font-weight: bold;
@@ -70,6 +70,21 @@
         color: #000;
     }
 
+    .btn-utama2 {
+        background: #ffffffff;
+        border: none;
+        padding: 12px 30px;
+        font-weight: bold;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+    
+    .btn-utama2:hover {
+        background: #cfcdc7ff;
+        color: #000;
+    }
+
+
     /* Section Info */
     .info-section {
         padding: 60px 20px;
@@ -109,7 +124,7 @@
         <h1>Portal Penerimaan Magang</h1>
         <p>Dinas Komunikasi dan Informatika Kabupaten/Kota</p>
         <a href="{{ route('register') }}" class="btn btn-utama me-2">Daftar Sekarang</a>
-        <a href="{{ route('login') }}" class="btn btn-light rounded-pill px-4">Login</a>
+        <a href="{{ route('login') }}" class="btn btn-utama2">Login</a>
     </div>
 </section>
 

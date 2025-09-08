@@ -6,7 +6,7 @@
 
 body {
     font-family: "Inter", sans-serif;
-    background: linear-gradient(135deg, #889becff 100%, #764ba2 0%);
+    background: linear-gradient(135deg, #0056b3 100%, #889becff 0%);
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
@@ -81,7 +81,7 @@ body::before {
 .logo {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #0056b3, #889becff);
     border-radius: 20px;
     display: inline-flex;
     align-items: center;
@@ -247,7 +247,7 @@ body::before {
 .btn-register {
     height: 56px;
     border-radius: 14px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #0056b3, #889becff);
     border: none;
     font-size: 1rem;
     font-weight: 600;

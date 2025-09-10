@@ -21,3 +21,19 @@ Route::get('/register', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('/pengguna', function () {
+    return view('admin.pengguna.index'); 
+})->name('pengguna.index');
+
+Route::get('/divisi', function () {
+    return view('admin.divisi.index'); 
+})->name('divisi.index');
+
+Route::get('/konfirmasipj', function () {
+    return view('admin.konfirmasi_pengajuan.index'); 
+})->name('konfirmasi_pengajuan.index');
+
+Route::get('/aktivasi', function () {
+    return view('admin.aktivasi.index'); 
+})->name('aktivasi.index');

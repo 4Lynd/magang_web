@@ -78,4 +78,21 @@
 		<script src="assets/js/todays-date.js"></script>
 		<script src="{{ asset('js/app.js') }}" defer></script>
         
+		<style>
+.page-wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
+.app-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    color: #6c757d;
+    text-align: right;
+}
+</style>
     </head>

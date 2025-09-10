@@ -3,348 +3,422 @@
 @section('content')
 <!-- Page wrapper start -->
 
-				<!-- App container starts -->
-				<div class="app-container">
-					<!-- App hero header starts -->
-					<div class="app-hero-header d-flex align-items-center">
-						<!-- Breadcrumb start -->
-						<ol class="breadcrumb">
-							<li class="breadcrumb-item">
-								<i class="bi bi-house lh-1 pe-3 me-3 border-end border-dark"></i>
-								<a href="index.html" class="text-decoration-none">Home</a>
-							</li>
-							<li class="breadcrumb-item text-secondary" aria-current="page">
-								Dashboard
-							</li>
-						</ol>
-						<!-- Breadcrumb end -->
+<!-- App container starts -->
 
-					</div>
-					<!-- App Hero header ends -->
+    <!-- App hero header starts -->
 
-					<!-- App body starts -->
-					<div class="app-body">
+    
 
-						<!-- Row start -->
-						<div class="row gx-3">
-							<div class="col-xl-3 col-sm-6 col-12">
-								<div class="card mb-3">
-									<div class="card-body">
-										<div class="mb-2">
-											<i class="bi bi-bar-chart fs-1 text-primary lh-1"></i>
-										</div>
-										<div class="d-flex align-items-center justify-content-between">
-											<h5 class="m-0 text-secondary fw-normal">Sales</h5>
-											<h3 class="m-0 text-primary">3500</h3>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-3 col-sm-6 col-12">
-								<div class="card mb-3">
-									<div class="card-body">
-										<div class="mb-2">
-											<i class="bi bi-bag-check fs-1 text-primary lh-1"></i>
-										</div>
-										<div class="d-flex align-items-center justify-content-between">
-											<h5 class="m-0 text-secondary fw-normal">Orders</h5>
-											<h3 class="m-0 text-primary">2900</h3>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-3 col-sm-6 col-12">
-								<div class="card mb-3">
-									<div class="card-body">
-										<div class="arrow-label">+18%</div>
-										<div class="mb-2">
-											<i class="bi bi-box-seam fs-1 text-primary lh-1"></i>
-										</div>
-										<div class="d-flex align-items-center justify-content-between">
-											<h5 class="m-0 text-secondary fw-normal">Items</h5>
-											<h3 class="m-0 text-primary">6500</h3>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-3 col-sm-6 col-12">
-								<div class="card mb-3">
-									<div class="card-body">
-										<div class="arrow-label">+24%</div>
-										<div class="mb-2">
-											<i class="bi bi-bell fs-1 text-primary lh-1"></i>
-										</div>
-										<div class="d-flex align-items-center justify-content-between">
-											<h5 class="m-0 text-secondary fw-normal">Signups</h5>
-											<h3 class="m-0 text-primary">7200</h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Row end -->
+    <!-- App body starts -->
+    
 
-						<!-- Row start -->
-						<div class="row gx-3">
-							<div class="col-xxl-12">
-								<div class="card mb-3">
-									<div class="card-header d-flex justify-content-between align-items-center">
-										<h5 class="card-title">Overview</h5>
-										<button class="btn btn-outline-primary btn-sm ms-auto">
-											Download
-										</button>
-									</div>
-									<div class="card-body">
-										<!-- Row start -->
-										<div class="row gx-3">
-											<div class="col-lg-5 col-sm-12 col-12">
-												<h6 class="text-center mb-3">Visitors</h6>
-												<div id="visitors"></div>
-												<div class="my-3 text-center">
-													<div class="badge bg-danger bg-opacity-10 text-danger">
-														10% higher than last month
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-2 col-sm-12 col-12">
-												<div class="border px-2 py-4 rounded-5 h-100 text-center">
-													<h6 class="mt-3 mb-5">Monthly Average</h6>
-													<div class="mb-5">
-														<h2 class="text-primary">9600</h2>
-														<h6 class="text-secondary fw-light">Visitors</h6>
-													</div>
-													<div class="mb-4">
-														<h2 class="text-danger">$450<sup>k</sup></h2>
-														<h6 class="text-secondary fw-light">Sales</h6>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-5 col-sm-12 col-12">
-												<h6 class="text-center mb-3">Sales</h6>
-												<div id="sales"></div>
-												<div class="my-3 text-center">
-													<div class="badge bg-primary bg-opacity-10 text-primary">
-														12% higher than last month
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Row ends -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Row ends -->
+        <!-- Welcome Card -->
+        <div class="row gx-3 mb-4">
+            <div class="col-12">
+                <div class="card bg-gradient-primary text-white mb-3">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4 class="text-white mb-2">Sistem Manajemen Magang</h4>
+                                <p class="mb-0 opacity-75">DISKOMINFOTIK Kabupaten Tuban</p>
+                            </div>
+                            <div class="text-end">
+                                <i class="bi bi-building fs-1 opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-						<!-- Row start -->
-						<div class="row gx-3">
-							<div class="col-xl-8 col-lg-12">
-								<div class="card mb-3">
-									<div class="card-header">
-										<h5 class="card-title">Team Activity</h5>
-									</div>
-									<div class="card-body">
-										<ul class="m-0 p-0">
-											<li class="team-activity d-flex flex-wrap">
-												<div class="activity-time py-2 me-3">
-													<p class="m-0">10:30AM</p>
-													<span class="badge bg-primary">New</span>
-												</div>
-												<div class="d-flex flex-column py-2">
-													<h6>Earth - Admin Dashboard</h6>
-													<p class="m-0 text-secondary">by Elnathan Lois</p>
-												</div>
-												<div class="ms-auto mt-4">
-													<div class="progress small mb-1">
-														<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
-															aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-													<p class="text-secondary">(225 of 700gb)</p>
-												</div>
-											</li>
-											<li class="team-activity d-flex flex-wrap">
-												<div class="activity-time py-2 me-3">
-													<p class="m-0">11:30AM</p>
-													<span class="badge bg-primary">Task</span>
-												</div>
-												<div class="d-flex flex-column py-2">
-													<h6>Bootstrap Gallery Admin Templates</h6>
-													<p class="m-0 text-secondary">by Patrobus Nicole</p>
-												</div>
-												<div class="ms-auto mt-4">
-													<div class="progress small mb-1">
-														<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
-															aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-													<p class="text-secondary">90% completed</p>
-												</div>
-											</li>
-											<li class="team-activity d-flex flex-wrap">
-												<div class="activity-time py-2 me-3">
-													<p class="m-0">12:50PM</p>
-													<span class="badge bg-danger">Closed</span>
-												</div>
-												<div class="d-flex flex-column py-2">
-													<h6>Bootstrap Admin Themes</h6>
-													<p class="m-0 text-secondary">by Abilene Omega</p>
-												</div>
-												<div class="ms-auto mt-3">
-													<div id="sparkline1"></div>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-lg-12">
-								<div class="card mb-3">
-									<div class="card-header">
-										<h5 class="card-title">Tasks</h5>
-									</div>
-									<div class="card-body">
-										<div class="auto-align-graph">
-											<div id="tasks"></div>
-										</div>
-										<div class="grid text-center">
-											<div class="g-col-4">
-												<i class="bi bi-triangle text-warning"></i>
-												<h3 class="m-0 mt-1">7</h3>
-												<p class="text-secondary m-0">Ongoing</p>
-											</div>
-											<div class="g-col-4">
-												<i class="bi bi-triangle text-primary"></i>
-												<h3 class="m-0 mt-1 fw-bolder">9</h3>
-												<p class="text-secondary m-0">Pending</p>
-											</div>
-											<div class="g-col-4">
-												<i class="bi bi-triangle text-danger"></i>
-												<h3 class="m-0 mt-1">12</h3>
-												<p class="text-secondary m-0">Completed</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Row end -->
+        <!-- Main Statistics Row -->
+        <div class="row gx-3 mb-4">
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <i class="bi bi-people-fill fs-1 text-primary lh-1"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h6 class="m-0 text-secondary fw-normal">Total Pengguna</h6>
+                            <h3 class="m-0 text-primary">247</h3>
+                        </div>
+                        <small class="text-muted">
+                            <i class="bi bi-arrow-up text-success me-1"></i>
+                            +12 dari bulan lalu
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <i class="bi bi-file-earmark-text-fill fs-1 text-warning lh-1"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h6 class="m-0 text-secondary fw-normal">Pengajuan Aktif</h6>
+                            <h3 class="m-0 text-warning">23</h3>
+                        </div>
+                        <small class="text-muted">
+                            <i class="bi bi-clock text-warning me-1"></i>
+                            Menunggu konfirmasi
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="arrow-label bg-success text-white">+18%</div>
+                        <div class="mb-2">
+                            <i class="bi bi-person-check-fill fs-1 text-success lh-1"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h6 class="m-0 text-secondary fw-normal">Magang Aktif</h6>
+                            <h3 class="m-0 text-success">45</h3>
+                        </div>
+                        <small class="text-muted">
+                            <i class="bi bi-arrow-up text-success me-1"></i>
+                            Dari 12 divisi
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="arrow-label bg-info text-white">+24%</div>
+                        <div class="mb-2">
+                            <i class="bi bi-award-fill fs-1 text-info lh-1"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h6 class="m-0 text-secondary fw-normal">Selesai</h6>
+                            <h3 class="m-0 text-info">156</h3>
+                        </div>
+                        <small class="text-muted">
+                            <i class="bi bi-arrow-up text-success me-1"></i>
+                            Total keseluruhan
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-						<!-- Row start -->
-						<div class="row gx-3">
-							<div class="col-xl-4 col-sm-6">
-								<div class="card mb-3">
-									<div class="card-header">
-										<h5 class="card-title">Events</h5>
-									</div>
-									<div class="card-body">
-										<div class="bg-light px-3 py-2 d-flex justify-content-between align-items-center">
-											<div id="todays-date" class="fw-semibold"></div>
-											<div class="badge rounded-pill bg-primary fs-6">
-												<span>21</span> Events
-											</div>
-										</div>
-										<div class="event-list mt-3">
-											<div class="d-flex align-items-center mb-4">
-												<img src="assets/images/checked.svg" alt="Bootstrap Gallery" class="img-2x" />
-												<div class="ms-3">
-													<h6 class="text-primary mb-1 fw-bold">11:30AM</h6>
-													<h6 class="m-0 text-secondary fw-normal">
-														Product Launch
-													</h6>
-												</div>
-											</div>
-											<div class="d-flex align-items-center mb-4">
-												<img src="assets/images/checked.svg" alt="Bootstrap Gallery" class="img-2x" />
-												<div class="ms-3">
-													<h6 class="text-primary mb-1 fw-bold">2:30PM</h6>
-													<h6 class="m-0 text-secondary fw-normal">
-														Code review
-													</h6>
-												</div>
-											</div>
-											<div class="d-flex align-items-center">
-												<img src="assets/images/not-checked.svg" alt="Bootstrap Gallery" class="img-2x" />
-												<div class="ms-3">
-													<h6 class="text-primary mb-1 fw-bold">03:30PM</h6>
-													<h6 class="m-0 text-secondary fw-normal">
-														Product meeting with dev team
-													</h6>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-sm-6">
-								<div class="card mb-3">
-									<div class="card-header">
-										<h5 class="card-title">Income</h5>
-									</div>
-									<div class="card-body p-0">
-										<div id="income"></div>
-										<div class="p-3 mt-n3">
-											<div class="d-flex gap-3">
-												<div class="">
-													<h4 class="fw-semibold mb-1">1600k</h4>
-													<p class="text-secondary m-0">
-														<span class="bi bi-record-fill text-primary me-1"></span>Overall Income
-													</p>
-												</div>
+        <!-- Secondary Statistics Row -->
+        <div class="row gx-3 mb-4">
+            <div class="col-xl-4 col-md-6 col-12">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="icon-circle bg-primary bg-opacity-10">
+                                <i class="bi bi-mortarboard text-primary fs-4"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h6 class="mb-0 text-secondary">Mahasiswa</h6>
+                                <h4 class="mb-0 text-primary">128</h4>
+                                <small class="text-muted">Terdaftar aktif</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="icon-circle bg-secondary bg-opacity-10">
+                                <i class="bi bi-people text-secondary fs-4"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h6 class="mb-0 text-secondary">Siswa SMK</h6>
+                                <h4 class="mb-0 text-secondary">89</h4>
+                                <small class="text-muted">Terdaftar aktif</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="icon-circle bg-purple bg-opacity-10">
+                                <i class="bi bi-person-workspace text-purple fs-4"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h6 class="mb-0 text-secondary">Pendamping</h6>
+                                <h4 class="mb-0" style="color: #6f42c1;">30</h4>
+                                <small class="text-muted">Dosen & Guru</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-												<div class="">
-													<h4 class="fw-semibold mb-1">1200k</h4>
-													<p class="text-secondary m-0">
-														<span class="bi bi-record-fill text-danger me-1"></span>Overall Expenses
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-sm-12">
-								<div class="card mb-3">
-									<div class="card-header">
-										<h5 class="card-title">Activity</h5>
-									</div>
-									<div class="card-body">
-										<div class="my-2 d-flex flex-column gap-3">
-											<div class="d-flex align-items-center justify-content-between">
-												<h6 class="m-0 fw-normal">Server down</h6>
-												<div class="badge bg-danger">High</div>
-											</div>
-											<div class="d-flex align-items-center justify-content-between">
-												<h6 class="m-0 fw-normal">Notification from bank</h6>
-												<div class="badge bg-primary">Low</div>
-											</div>
-											<div class="d-flex align-items-center justify-content-between">
-												<h6 class="m-0 fw-normal">Transaction success alert</h6>
-												<div class="badge bg-primary">Low</div>
-											</div>
-											<div class="d-flex align-items-center justify-content-between">
-												<h6 class="m-0 fw-normal">Critical issue</h6>
-												<div class="badge bg-danger">High</div>
-											</div>
-											<div class="d-flex align-items-center justify-content-between">
-												<h6 class="m-0 fw-normal">Bug fix</h6>
-												<div class="badge bg-danger">High</div>
-											</div>
-											<div class="d-flex align-items-center justify-content-between">
-												<h6 class="m-0 fw-normal">OS update</h6>
-												<div class="badge bg-primary">Low</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Row end -->
+        <!-- Chart and Activity Row -->
+        <div class="row gx-3 mb-4">
+            <!-- Quick Actions Card -->
+            <div class="col-xl-4 col-12">
+                <div class="card mb-3 border-0 shadow-sm h-100">
+                    <div class="card-header bg-white border-bottom">
+                        <h6 class="mb-0 fw-bold text-primary">
+                            <i class="bi bi-lightning-fill me-2"></i>Aksi Cepat
+                        </h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm d-flex align-items-center">
+                                <i class="bi bi-person-plus me-2"></i>
+                                Aktivasi Pengguna Baru
+                                <span class="badge bg-warning text-dark ms-auto">8</span>
+                            </a>
+                            <a href="#" class="btn btn-outline-warning btn-sm d-flex align-items-center">
+                                <i class="bi bi-clipboard-check me-2"></i>
+                                Konfirmasi Pengajuan
+                                <span class="badge bg-warning text-dark ms-auto">23</span>
+                            </a>
+                            <a href="#" class="btn btn-outline-success btn-sm d-flex align-items-center">
+                                <i class="bi bi-building me-2"></i>
+                                Kelola Divisi
+                                <span class="badge bg-success ms-auto">12</span>
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm d-flex align-items-center">
+                                <i class="bi bi-file-earmark-text me-2"></i>
+                                Laporan Magang
+                                <span class="badge bg-info ms-auto">45</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-					</div>
-					<!-- App body ends -->
+            <!-- Status Overview -->
+            <div class="col-xl-8 col-12">
+                <div class="card mb-3 border-0 shadow-sm h-100">
+                    <div class="card-header bg-white border-bottom">
+                        <h6 class="mb-0 fw-bold text-primary">
+                            <i class="bi bi-graph-up me-2"></i>Status Divisi
+                        </h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center justify-content-between p-2 bg-light rounded">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="bi bi-code-slash text-white small"></i>
+                                        </div>
+                                        <div>
+                                            <div class="fw-medium">IT & Sistem Informasi</div>
+                                            <small class="text-muted">7/15 Terisi</small>
+                                        </div>
+                                    </div>
+                                    <div class="text-end">
+                                        <div class="badge bg-success">8 Tersedia</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center justify-content-between p-2 bg-light rounded">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="bi bi-calculator text-white small"></i>
+                                        </div>
+                                        <div>
+                                            <div class="fw-medium">Keuangan & Akuntansi</div>
+                                            <small class="text-muted">8/10 Terisi</small>
+                                        </div>
+                                    </div>
+                                    <div class="text-end">
+                                        <div class="badge bg-warning text-dark">2 Tersedia</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center justify-content-between p-2 bg-light rounded">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="icon-circle bg-success">
+                                            <i class="bi bi-people text-white small"></i>
+                                        </div>
+                                        <div>
+                                            <div class="fw-medium">Sumber Daya Manusia</div>
+                                            <small class="text-muted">8/8 Terisi</small>
+                                        </div>
+                                    </div>
+                                    <div class="text-end">
+                                        <div class="badge bg-danger">Penuh</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center justify-content-between p-2 bg-light rounded">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="icon-circle bg-info">
+                                            <i class="bi bi-bar-chart text-white small"></i>
+                                        </div>
+                                        <div>
+                                            <div class="fw-medium">Perencanaan & Evaluasi</div>
+                                            <small class="text-muted">5/12 Terisi</small>
+                                        </div>
+                                    </div>
+                                    <div class="text-end">
+                                        <div class="badge bg-success">7 Tersedia</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-					
+        <!-- Recent Activity -->
+        <div class="row gx-3">
+            <div class="col-12">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-header bg-white border-bottom">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0 fw-bold text-primary">
+                                <i class="bi bi-clock-history me-2"></i>Aktivitas Terbaru
+                            </h6>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Lihat Semua</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="timeline">
+                            <div class="timeline-item d-flex gap-3 pb-3">
+                                <div class="timeline-marker bg-success"></div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h6 class="mb-1">Pengajuan Magang Disetujui</h6>
+                                            <p class="mb-1 text-muted small">Ahmad Rizki Pratama dari UI telah disetujui untuk magang di divisi IT</p>
+                                            <small class="text-muted">2 jam yang lalu</small>
+                                        </div>
+                                        <span class="badge bg-success">Disetujui</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-item d-flex gap-3 pb-3">
+                                <div class="timeline-marker bg-primary"></div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h6 class="mb-1">Pengguna Baru Terdaftar</h6>
+                                            <p class="mb-1 text-muted small">Siti Nurhaliza dari SMKN 1 Jakarta mendaftar sebagai siswa</p>
+                                            <small class="text-muted">5 jam yang lalu</small>
+                                        </div>
+                                        <span class="badge bg-warning text-dark">Menunggu</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-item d-flex gap-3 pb-3">
+                                <div class="timeline-marker bg-info"></div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h6 class="mb-1">Laporan Magang Dikirim</h6>
+                                            <p class="mb-1 text-muted small">Maya Sari Dewi mengirimkan laporan mingguan periode 1</p>
+                                            <small class="text-muted">1 hari yang lalu</small>
+                                        </div>
+                                        <span class="badge bg-info">Laporan</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-item d-flex gap-3">
+                                <div class="timeline-marker bg-secondary"></div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h6 class="mb-1">Divisi Baru Ditambahkan</h6>
+                                            <p class="mb-1 text-muted small">Divisi "Media & Publikasi" berhasil ditambahkan dengan kapasitas 10 orang</p>
+                                            <small class="text-muted">2 hari yang lalu</small>
+                                        </div>
+                                        <span class="badge bg-secondary">Sistem</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
 
-				</div>
-				<!-- App container ends -->
+    
+    <!-- App body ends -->
+
+
+<!-- App container ends -->
+
+<style>
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-purple {
+    color: #6f42c1 !important;
+}
+
+.bg-purple {
+    background-color: #6f42c1 !important;
+}
+
+.arrow-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.timeline-marker {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: 4px;
+    flex-shrink: 0;
+}
+
+.timeline-item {
+    position: relative;
+}
+
+.timeline-item:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 16px;
+    bottom: -16px;
+    width: 2px;
+    background-color: #dee2e6;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn-sm {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.825rem;
+}
+</style>
 
 @endsection

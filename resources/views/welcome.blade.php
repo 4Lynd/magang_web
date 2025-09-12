@@ -1,100 +1,9 @@
 @include('layouts.header')
 
-<style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    /* Navbar */
-    .navbar {
-        background: #fff !important;
-    }
-    .navbar-brand {
-        font-weight: bold;
-        color: #fff !important;
-        text-transform: uppercase;
-    }
-    .nav-link {
-        color: #1e2124ff !important;
-        margin-right: 15px;
-        font-size: 15px;
-        font-weight: 500;
-    }
-    .nav-link:hover {
-        color: #ffca28 !important;
-    }
-
-    /* Hero Section */
-    .hero {
-        background: url('{{ asset("assets/images/fix/bg2.jpg") }}') center no-repeat;
-        background-size: 103%;
-        top: 50px;
-        min-height: 100vh;
-        color: white;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        position: relative;
-    }
-    .hero::after {
-        content: "";
-        position: absolute;
-        top: 0; left: 0; right: 0; bottom: 0;
-        background: rgba(0, 0, 0, 0.6);
-    }
-    .hero-content {
-        position: relative;
-        z-index: 1;
-        width: 100%;
-    }
-    .hero h1 {
-        font-size: 3rem;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-    .hero p {
-        font-size: 1.2rem;
-        margin-bottom: 20px;
-    }
-
-    .btn-utama {
-        background: #ffca28;
-        border: none;
-        padding: 12px 30px;
-        font-weight: bold;
-        border-radius: 30px;
-        transition: 0.3s;
-    }
-    .btn-utama:hover {
-        background: #ffc107;
-        color: #000;
-    }
-
-    .btn-utama2 {
-        background: #ffffffff;
-        border: none;
-        padding: 12px 30px;
-        font-weight: bold;
-        border-radius: 30px;
-        transition: 0.3s;
-    }
-    
-    .btn-utama2:hover {
-        background: #cfcdc7ff;
-        color: #000;
-    }
-
-
-    /* Section Info */
-    .info-section {
-        padding: 60px 20px;
-    }
-    .info-section h2 {
-        font-weight: bold;
-        margin-bottom: 20px;
-        color: #0d47a1;
-    }
-</style>
+<head>
+    <link rel="stylesheet" href="{{ asset('assets/css/ly/wel.css') }}" />
+    <script src="{{ asset('assets/js/ly/wel.js') }}" defer></script>
+</head>
 
 <body>
 <!-- Navbar -->
@@ -153,3 +62,5 @@
     </div>
 </section>
 </body>
+
+

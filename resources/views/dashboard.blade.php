@@ -1,16 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- Page wrapper start -->
-
-<!-- App container starts -->
-
-    <!-- App hero header starts -->
-
-    
-
-    <!-- App body starts -->
-    
 
         <!-- Welcome Card -->
         <div class="row gx-3 mb-4">
@@ -344,81 +334,4 @@
                     </div>
                 </div>
             </div>
-        
-
-    
-    <!-- App body ends -->
-
-
-<!-- App container ends -->
-
-<style>
-.bg-gradient-primary {
-    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-}
-
-.icon-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text-purple {
-    color: #6f42c1 !important;
-}
-
-.bg-purple {
-    background-color: #6f42c1 !important;
-}
-
-.arrow-label {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 0.75rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-weight: 600;
-}
-
-.timeline-marker {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin-top: 4px;
-    flex-shrink: 0;
-}
-
-.timeline-item {
-    position: relative;
-}
-
-.timeline-item:not(:last-child)::before {
-    content: '';
-    position: absolute;
-    left: 5px;
-    top: 16px;
-    bottom: -16px;
-    width: 2px;
-    background-color: #dee2e6;
-}
-
-.card {
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
-}
-
-.btn-sm {
-    padding: 0.375rem 0.75rem;
-    font-size: 0.825rem;
-}
-</style>
-
 @endsection

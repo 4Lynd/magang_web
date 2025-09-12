@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="{{ asset('assets/vendor/overlay-scroll/OverlayScrollbars.min.css') }}" />
         <link rel="stylesheet" href="{{ asset('assets/vendor/toastify/toastify.css') }}" />
 
+		<!-- CSS Manual -->
+		<link rel="stylesheet" href="{{ asset('assets/css/ly/dashb.css') }}" />
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">

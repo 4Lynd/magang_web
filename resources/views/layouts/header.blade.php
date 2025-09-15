@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <!-- Meta -->
         <meta name="description" content="Marketplace for Bootstrap Admin Dashboards" />
@@ -15,10 +18,10 @@
 
 		<!-- CSS Manual -->
 		<link rel="stylesheet" href="{{ asset('assets/css/ly/dashb.css') }}" />
+		<link rel="stylesheet" href="{{ asset('assets/css/ly/cus.css') }}" />
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+		<!-- JS Manual -->
+		<script src="assets/js/ly/pg.js"></script>
 
         <!-- Meta -->
 		<meta name="description" content="Marketplace for Bootstrap Admin Dashboards" />
@@ -31,15 +34,11 @@
 		<meta property="og:site_name" content="Bootstrap Gallery">
 		<link rel="shortcut icon" href="assets/images/fix/webicon2.jpg" />
 
-        <!-- *************
-			************ CSS Files *************
-		************* -->
+        <!-- CSS Files -->
 		<link rel="stylesheet" href="assets/fonts/bootstrap/bootstrap-icons.css" />
 		<link rel="stylesheet" href="assets/css/main.min.css" />
 
-		<!-- *************
-			************ Vendor Css Files *************
-		************ -->
+		<!-- Vendor Css Files -->
 
 		<!-- Scrollbar CSS -->
 		<link rel="stylesheet" href="assets/vendor/overlay-scroll/OverlayScrollbars.min.css" />
@@ -47,17 +46,13 @@
 		<!-- Toastify CSS -->
 		<link rel="stylesheet" href="assets/vendor/toastify/toastify.css" />
 
-        <!-- *************
-			************ JavaScript Files *************
-		************* -->
+        <!-- JavaScript Files -->
 		<!-- Required jQuery first, then Bootstrap Bundle JS -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
 		<script src="assets/js/moment.min.js"></script>
 
-		<!-- *************
-			************ Vendor Js Files *************
-		************* -->
+		<!-- Vendor Js Files -->
 
 		<!-- Overlay Scroll JS -->
 		<script src="assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js"></script>

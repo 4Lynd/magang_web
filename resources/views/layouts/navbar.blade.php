@@ -4,14 +4,13 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1030; /* lebih tinggi dari konten */
-    background: #fff; /* atau warna header */
-    height: 70px; /* sesuaikan tinggi header */
+    z-index: 1030; 
+    background: #fff; 
+    height: 70px; 
 }
 
-/* supaya konten tidak ketiban header */
 body {
-    padding-top: 70px; /* sama dengan tinggi header */
+    padding-top: 70px; 
 }
 
 </style>

@@ -1,8 +1,3 @@
-<!-- JS Files -->
-<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js') }}"></script>
-<script src="{{ asset('assets/vendor/toastify/toastify.js') }}"></script>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -16,8 +11,8 @@
     });
 </script>
 
-                    <!-- App footer start -->
-					<div class="app-footer">
-						<span>© Bootstrap Gallery 2023</span>
-					</div>
-					<!-- App footer end -->
+            <!-- App footer start -->
+			<div class="app-footer">
+				<span>© Bootstrap Gallery 2023</span>
+			</div>
+			<!-- App footer end -->

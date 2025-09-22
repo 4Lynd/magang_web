@@ -15,64 +15,72 @@
 
                 <!-- Enhanced Filter Section -->
                 <div class="d-flex flex-wrap gap-2 align-items-center">
-                    <!-- Search Input -->
-                    <div class="input-group" style="width: 250px;">
-                        <span class="input-group-text bg-light border-end-0">
-                            <i class="bi bi-search text-muted"></i>
-                        </span>
-                        <input type="text" class="form-control border-start-0 ps-0" 
-                               placeholder="Cari nama atau email..." id="searchInput">
-                    </div>
-
-                    <!-- Filter Role -->
-                    <select class="form-select form-select-sm" style="width: 180px;" id="roleFilter">
-                        <option value="">Semua Role</option>
-                        <option value="guru">Guru Pendamping</option>
-                        <option value="pj">Kepala Divisi (PJ)</option>
-                        <option value="mentor">Mentor</option>
-                        <option value="mahasiswa">Mahasiswa/i</option>
-                        <option value="siswa">Siswa/i</option>
-                        <option value="pegawai">Pegawai</option>
-                        <option value="sekretaris">Sekretaris</option>
-                        <option value="admin">Administrator</option>
-                    </select>
-
-                    <!-- Filter Status -->
-                    <select class="form-select form-select-sm" style="width: 120px;" id="statusFilter">
-                        <option value="">Semua</option>
-                        <option value="aktif">Aktif</option>
-                        <option value="nonaktif">Nonaktif</option>
-                    </select>
+                    <div class="row g-3 align-items-end">
+                        <div class="col-md-3">
+                            <!-- Search Input -->
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0">
+                                    <i class="bi bi-search text-muted"></i>
+                                </span>
+                                <input type="text" class="form-control border-start-0" 
+                                    placeholder="Cari nama atau email..." id="searchInput">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <!-- Filter Role -->
+                            <select class="form-select" id="roleFilter">
+                                <option value="">Role</option>
+                                <option value="guru">Guru Pendamping</option>
+                                <option value="pj">Kepala Divisi (PJ)</option>
+                                <option value="mentor">Mentor</option>
+                                <option value="mahasiswa">Mahasiswa/i</option>
+                                <option value="siswa">Siswa/i</option>
+                                <option value="pegawai">Pegawai</option>
+                                <option value="sekretaris">Sekretaris</option>
+                                <option value="admin">Administrator</option>
+                            </select>
+                        </div>
+                            <!-- Filter Status -->
+                            <div class="col-md-3">
+                            <select class="form-select" id="statusFilter">
+                                <option value="">Status</option>
+                                <option value="aktif">Aktif</option>
+                                <option value="nonaktif">Nonaktif</option>
+                            </select>
+                        </div>
 
                     <!-- Action Buttons -->
-                    <div class="btn-group">
-                        <button class="btn btn-sm btn-outline-secondary" id="resetBtn">
-                            <i class="bi bi-arrow-repeat"></i>
-                        </button>
-                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#addUserModal">
-                            <i class="bi bi-plus-lg"></i> Tambah
-                        </button>
+                    <div class="col-md-3">
+                        <div class="btn-group">
+                            <button class="btn btn-outline-secondary" id="resetBtn">
+                                <i class="bi bi-arrow-repeat"></i>
+                            </button>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addUserModal">
+                                <i class="bi bi-plus-lg"></i> Tambah
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>    
 
         <div class="card-body p-0">
             <!-- Stats Cards -->
             <div class="row g-0 border-bottom">
-                <div class="col-6 col-md-3 p-3 text-center border-end">
+                <div class="col-6 col-md-3 p-3 text-center border-end bg-primary bg-opacity-10">
                     <div class="text-primary fw-bold fs-4">24</div>
                     <small class="text-muted">Total Pengguna</small>
                 </div>
-                <div class="col-6 col-md-3 p-3 text-center border-end">
+                <div class="col-6 col-md-3 p-3 text-center border-end bg-success bg-opacity-10">
                     <div class="text-success fw-bold fs-4">20</div>
                     <small class="text-muted">Aktif</small>
                 </div>
-                <div class="col-6 col-md-3 p-3 text-center border-end">
+                <div class="col-6 col-md-3 p-3 text-center border-end bg-warning bg-opacity-10">
                     <div class="text-warning fw-bold fs-4">4</div>
                     <small class="text-muted">Nonaktif</small>
                 </div>
-                <div class="col-6 col-md-3 p-3 text-center">
+                <div class="col-6 col-md-3 p-3 text-center bg-info bg-opacity-10">
                     <div class="text-info fw-bold fs-4">8</div>
                     <small class="text-muted">Role Unik</small>
                 </div>

@@ -13,59 +13,63 @@
                     <small class="text-muted">Konfirmasi pengajuan magang dari mahasiswa, siswa dan pendamping</small>
                 </div>
 
-                <!-- Stats Cards -->
-                <div class="d-flex gap-3">
-                    <div class="text-center px-3 py-2 bg-warning bg-opacity-10 rounded">
-                        <div class="fw-bold text-warning fs-5">12</div>
-                        <small class="text-muted">Menunggu</small>
-                    </div>
-                    <div class="text-center px-3 py-2 bg-success bg-opacity-10 rounded">
-                        <div class="fw-bold text-success fs-5">35</div>
-                        <small class="text-muted">Disetujui</small>
-                    </div>
-                    <div class="text-center px-3 py-2 bg-danger bg-opacity-10 rounded">
-                        <div class="fw-bold text-danger fs-5">3</div>
-                        <small class="text-muted">Ditolak</small>
+                <!-- Filter Section -->
+                <div class="d-flex flex-wrap gap-2 align-items-center">
+                    <div class="row g-3 align-items-end">
+                        <div class="col-md-4">
+                            <label class="form-label small text-muted">Pencarian</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-white border-end-0">
+                                    <i class="bi bi-search text-muted"></i>
+                                </span>
+                                <input type="text" class="form-control border-start-0" placeholder="Cari nama pengajuan...">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small text-muted">Status</label>
+                            <select class="form-select">
+                                <option>Semua Status</option>
+                                <option>Menunggu Konfirmasi</option>
+                                <option>Disetujui</option>
+                                <option>Ditolak</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label small text-muted">Role</label>
+                            <select class="form-select">
+                                <option>Semua Role</option>
+                                <option>Mahasiswa</option>
+                                <option>Siswa</option>
+                                <option>Dosen Pendamping</option>
+                                <option>Guru Pendamping</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-outline-secondary w-100">
+                                <i class="bi bi-funnel me-1"></i>Filter
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Filter Section -->
-        <div class="card-body border-bottom bg-light">
-            <div class="row g-3 align-items-end">
-                <div class="col-md-4">
-                    <label class="form-label small text-muted">Pencarian</label>
-                    <div class="input-group">
-                        <span class="input-group-text bg-white border-end-0">
-                            <i class="bi bi-search text-muted"></i>
-                        </span>
-                        <input type="text" class="form-control border-start-0" placeholder="Cari nama pengajuan...">
+        <!-- Stats Cards -->
+        <div class="card-body p-0">
+            <div class="row g-0 border-bottom">
+                <div class="d-flex gap-1">
+                    <div class="col-6 col-md-4 p-3 text-center border-end bg-warning bg-opacity-10">
+                        <div class="fw-bold text-warning fs-4">12</div>
+                        <small class="text-muted">Menunggu</small>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <label class="form-label small text-muted">Status</label>
-                    <select class="form-select">
-                        <option>Semua Status</option>
-                        <option>Menunggu Konfirmasi</option>
-                        <option>Disetujui</option>
-                        <option>Ditolak</option>
-                    </select>
-                </div>
-                <div class="col-md-3">
-                    <label class="form-label small text-muted">Role</label>
-                    <select class="form-select">
-                        <option>Semua Role</option>
-                        <option>Mahasiswa</option>
-                        <option>Siswa</option>
-                        <option>Dosen Pendamping</option>
-                        <option>Guru Pendamping</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <button class="btn btn-outline-secondary w-100">
-                        <i class="bi bi-funnel me-1"></i>Filter
-                    </button>
+                    <div class="col-6 col-md-4 p-3 text-center border-end bg-success bg-opacity-10">
+                        <div class="fw-bold text-success fs-4">35</div>
+                        <small class="text-muted">Disetujui</small>
+                    </div>
+                    <div class="col-6 col-md-4 p-3 text-center border-end bg-danger bg-opacity-10">
+                        <div class="fw-bold text-danger fs-4">3</div>
+                        <small class="text-muted">Ditolak</small>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,7 +114,7 @@
                                 </div>
                             </td>
                             <td class="px-4 py-3">
-                                <span class="badge bg-info bg-opacity-15 text-info">Mahasiswa</span>
+                                <span class="badge bg-info bg-opacity-15 text-white">Mahasiswa</span>
                             </td>
                             <td class="px-4 py-3">
                                 <div class="d-flex align-items-center gap-2">
@@ -162,7 +166,7 @@
                                 </div>
                             </td>
                             <td class="px-4 py-3">
-                                <span class="badge bg-secondary bg-opacity-15 text-secondary">Siswa</span>
+                                <span class="badge bg-secondary bg-opacity-15 text-white">Siswa</span>
                             </td>
                             <td class="px-4 py-3">
                                 <div class="d-flex align-items-center gap-2">
@@ -211,7 +215,7 @@
                                 </div>
                             </td>
                             <td class="px-4 py-3">
-                                <span class="badge bg-purple bg-opacity-15 text-purple">Dosen</span>
+                                <span class="badge bg-purple bg-opacity-15 text-wwhite">Dosen</span>
                             </td>
                             <td class="px-4 py-3">
                                 <div class="d-flex align-items-center gap-2">
@@ -260,7 +264,7 @@
                                 </div>
                             </td>
                             <td class="px-4 py-3">
-                                <span class="badge bg-info bg-opacity-15 text-info">Mahasiswa</span>
+                                <span class="badge bg-info bg-opacity-15 text-white">Mahasiswa</span>
                             </td>
                             <td class="px-4 py-3">
                                 <div class="d-flex align-items-center gap-2">

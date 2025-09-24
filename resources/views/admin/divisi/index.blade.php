@@ -53,24 +53,27 @@
             </div>
         </div>
 
-        <div class="card-body p-0">
-            <!-- Stats Cards -->
-            <div class="row g-0 border-bottom">
-                <div class="col-6 col-md-3 p-3 text-center border-end bg-primary bg-opacity-10">
-                    <div class="text-primary fw-bold fs-4">12</div>
-                    <small class="text-muted">Total Divisi</small>
-                </div>
-                <div class="col-6 col-md-3 p-3 text-center border-end bg-success bg-opacity-10">
-                    <div class="text-success fw-bold fs-4">8</div>
-                    <small class="text-muted">Tersedia</small>
-                </div>
-                <div class="col-6 col-md-3 p-3 text-center border-end bg-danger bg-opacity-10">
-                    <div class="text-danger fw-bold fs-4">3</div>
-                    <small class="text-muted">Kuota Penuh</small>
-                </div>
-                <div class="col-6 col-md-3 p-3 text-center bg-info bg-opacity-10">
-                    <div class="text-info fw-bold fs-4">145</div>
-                    <small class="text-muted">Total Kapasitas</small>
+        <!-- Stats Cards -->
+            <div class="card-body p-0">
+                <div class="row g-0 border-bottom">
+                    <div class="d-flex gap-1">
+                        <div class="col-6 col-md-3 p-3 text-center border-end bg-primary bg-opacity-10">
+                            <div class="text-primary fw-bold fs-4">12</div>
+                            <small class="text-muted">Total Divisi</small>
+                        </div>
+                        <div class="col-6 col-md-3 p-3 text-center border-end bg-success bg-opacity-10">
+                            <div class="text-success fw-bold fs-4">8</div>
+                            <small class="text-muted">Tersedia</small>
+                        </div>
+                        <div class="col-6 col-md-3 p-3 text-center border-end bg-danger bg-opacity-10">
+                            <div class="text-danger fw-bold fs-4">3</div>
+                            <small class="text-muted">Kuota Penuh</small>
+                        </div>
+                        <div class="col-6 col-md-3 p-3 text-center bg-info bg-opacity-10">
+                            <div class="text-info fw-bold fs-4">145</div>
+                            <small class="text-muted">Total Kapasitas</small>
+                        </div>
+                    </div>
                 </div>
             </div>
 

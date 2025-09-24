@@ -22,7 +22,7 @@
         </div>
 
         <!-- Main Statistics Row -->
-        <div class="row gx-3 mb-4">
+        <div class="row gx-3 mb-10">
             <div class="col-xl-3 col-sm-6 col-12">
                 <div class="card mb-3 border-0 shadow-sm">
                     <div class="card-body">

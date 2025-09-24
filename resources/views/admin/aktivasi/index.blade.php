@@ -52,20 +52,24 @@
         </div>
 
         <!-- Stats Cards -->
+            <div class="card-body p-0">
                 <div class="row g-0 border-bottom">
-                    <div class="col-6 col-md-4 p-3 text-center border-end bg-warning bg-opacity-10">
-                        <div class="fw-bold text-warning fs-4">8</div>
-                        <small class="text-muted">Menunggu</small>
-                    </div>
-                    <div class="col-6 col-md-4 p-3 text-center border-end bg-success bg-opacity-10">
-                        <div class="fw-bold text-success fs-4">142</div>
-                        <small class="text-muted">Aktif</small>
-                    </div>
-                    <div class="col-6 col-md-4 p-3 text-center border-end bg-danger bg-opacity-10">
-                        <div class="fw-bold text-danger fs-4">5</div>
-                        <small class="text-muted">Ditolak</small>
+                    <div class="d-flex gap-1">
+                        <div class="col-6 col-md-4 p-3 text-center border-end bg-warning bg-opacity-10">
+                            <div class="fw-bold text-warning fs-4">8</div>
+                            <small class="text-muted">Menunggu</small>
+                        </div>
+                        <div class="col-6 col-md-4 p-3 text-center border-end bg-success bg-opacity-10">
+                            <div class="fw-bold text-success fs-4">142</div>
+                            <small class="text-muted">Aktif</small>
+                        </div>
+                        <div class="col-6 col-md-4 p-3 text-center border-end bg-danger bg-opacity-10">
+                            <div class="fw-bold text-danger fs-4">5</div>
+                            <small class="text-muted">Ditolak</small>
+                        </div>
                     </div>
                 </div>
+            </div>
 
         <!-- Table Content -->
         <div class="card-body p-0">

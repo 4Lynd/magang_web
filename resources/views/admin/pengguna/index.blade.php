@@ -65,27 +65,30 @@
         </div>
     </div>    
 
-        <div class="card-body p-0">
             <!-- Stats Cards -->
-            <div class="row g-0 border-bottom">
-                <div class="col-6 col-md-3 p-3 text-center border-end bg-primary bg-opacity-10">
-                    <div class="text-primary fw-bold fs-4">24</div>
-                    <small class="text-muted">Total Pengguna</small>
-                </div>
-                <div class="col-6 col-md-3 p-3 text-center border-end bg-success bg-opacity-10">
-                    <div class="text-success fw-bold fs-4">20</div>
-                    <small class="text-muted">Aktif</small>
-                </div>
-                <div class="col-6 col-md-3 p-3 text-center border-end bg-warning bg-opacity-10">
-                    <div class="text-warning fw-bold fs-4">4</div>
-                    <small class="text-muted">Nonaktif</small>
-                </div>
-                <div class="col-6 col-md-3 p-3 text-center bg-info bg-opacity-10">
-                    <div class="text-info fw-bold fs-4">8</div>
-                    <small class="text-muted">Role Unik</small>
+            <div class="card-body p-0">
+                <div class="row g-0 border-bottom">
+                    <div class="d-flex gap-1">
+                        <div class="col-6 col-md-3 p-3 text-center border-end bg-primary bg-opacity-10">
+                            <div class="text-primary fw-bold fs-4">24</div>
+                            <small class="text-muted">Total Pengguna</small>
+                        </div>
+                        <div class="col-6 col-md-3 p-3 text-center border-end bg-success bg-opacity-10">
+                            <div class="text-success fw-bold fs-4">20</div>
+                            <small class="text-muted">Aktif</small>
+                        </div>
+                        <div class="col-6 col-md-3 p-3 text-center border-end bg-warning bg-opacity-10">
+                            <div class="text-warning fw-bold fs-4">4</div>
+                            <small class="text-muted">Nonaktif</small>
+                        </div>
+                        <div class="col-6 col-md-3 p-3 text-center bg-info bg-opacity-10">
+                            <div class="text-info fw-bold fs-4">8</div>
+                            <small class="text-muted">Role Unik</small>
+                        </div>
+                    </div>
                 </div>
             </div>
-
+            
             <!-- Enhanced Table -->
             <div class="table-responsive">
                 <table class="table table-hover align-middle mb-0" id="usersTable">
